@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDB365CC1B3268F0004A09C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB365CB1B3268F0004A09C3 /* AppDelegate.swift */; };
+		EDB365CE1B3268F0004A09C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB365CD1B3268F0004A09C3 /* ViewController.swift */; };
+		EDB365D11B3268F0004A09C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDB365CF1B3268F0004A09C3 /* Main.storyboard */; };
+		EDB365D31B3268F0004A09C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDB365D21B3268F0004A09C3 /* Images.xcassets */; };
+		EDB365D61B3268F0004A09C3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDB365D41B3268F0004A09C3 /* LaunchScreen.xib */; };
+		EDB365E21B3268F0004A09C3 /* CodePath_Week_5_Challenge__1_TinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB365E11B3268F0004A09C3 /* CodePath_Week_5_Challenge__1_TinderTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDB365DC1B3268F0004A09C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDB365BE1B3268F0004A09C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDB365C51B3268F0004A09C3;
+			remoteInfo = "CodePath_Week 5_Challenge #1_Tinder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDB365C61B3268F0004A09C3 /* CodePath_Week 5_Challenge #1_Tinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CodePath_Week 5_Challenge #1_Tinder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB365CA1B3268F0004A09C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDB365CB1B3268F0004A09C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDB365CD1B3268F0004A09C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDB365D01B3268F0004A09C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDB365D21B3268F0004A09C3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EDB365D51B3268F0004A09C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EDB365DB1B3268F0004A09C3 /* CodePath_Week 5_Challenge #1_TinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CodePath_Week 5_Challenge #1_TinderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB365E01B3268F0004A09C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDB365E11B3268F0004A09C3 /* CodePath_Week_5_Challenge__1_TinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePath_Week_5_Challenge__1_TinderTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDB365C31B3268F0004A09C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB365D81B3268F0004A09C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDB365BD1B3268F0004A09C3 = {
+			isa = PBXGroup;
+			children = (
+				EDB365C81B3268F0004A09C3 /* CodePath_Week 5_Challenge #1_Tinder */,
+				EDB365DE1B3268F0004A09C3 /* CodePath_Week 5_Challenge #1_TinderTests */,
+				EDB365C71B3268F0004A09C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDB365C71B3268F0004A09C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDB365C61B3268F0004A09C3 /* CodePath_Week 5_Challenge #1_Tinder.app */,
+				EDB365DB1B3268F0004A09C3 /* CodePath_Week 5_Challenge #1_TinderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDB365C81B3268F0004A09C3 /* CodePath_Week 5_Challenge #1_Tinder */ = {
+			isa = PBXGroup;
+			children = (
+				EDB365CB1B3268F0004A09C3 /* AppDelegate.swift */,
+				EDB365CD1B3268F0004A09C3 /* ViewController.swift */,
+				EDB365CF1B3268F0004A09C3 /* Main.storyboard */,
+				EDB365D21B3268F0004A09C3 /* Images.xcassets */,
+				EDB365D41B3268F0004A09C3 /* LaunchScreen.xib */,
+				EDB365C91B3268F0004A09C3 /* Supporting Files */,
+			);
+			path = "CodePath_Week 5_Challenge #1_Tinder";
+			sourceTree = "<group>";
+		};
+		EDB365C91B3268F0004A09C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDB365CA1B3268F0004A09C3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDB365DE1B3268F0004A09C3 /* CodePath_Week 5_Challenge #1_TinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDB365E11B3268F0004A09C3 /* CodePath_Week_5_Challenge__1_TinderTests.swift */,
+				EDB365DF1B3268F0004A09C3 /* Supporting Files */,
+			);
+			path = "CodePath_Week 5_Challenge #1_TinderTests";
+			sourceTree = "<group>";
+		};
+		EDB365DF1B3268F0004A09C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDB365E01B3268F0004A09C3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDB365C51B3268F0004A09C3 /* CodePath_Week 5_Challenge #1_Tinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDB365E51B3268F0004A09C3 /* Build configuration list for PBXNativeTarget "CodePath_Week 5_Challenge #1_Tinder" */;
+			buildPhases = (
+				EDB365C21B3268F0004A09C3 /* Sources */,
+				EDB365C31B3268F0004A09C3 /* Frameworks */,
+				EDB365C41B3268F0004A09C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CodePath_Week 5_Challenge #1_Tinder";
+			productName = "CodePath_Week 5_Challenge #1_Tinder";
+			productReference = EDB365C61B3268F0004A09C3 /* CodePath_Week 5_Challenge #1_Tinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDB365DA1B3268F0004A09C3 /* CodePath_Week 5_Challenge #1_TinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDB365E81B3268F0004A09C3 /* Build configuration list for PBXNativeTarget "CodePath_Week 5_Challenge #1_TinderTests" */;
+			buildPhases = (
+				EDB365D71B3268F0004A09C3 /* Sources */,
+				EDB365D81B3268F0004A09C3 /* Frameworks */,
+				EDB365D91B3268F0004A09C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDB365DD1B3268F0004A09C3 /* PBXTargetDependency */,
+			);
+			name = "CodePath_Week 5_Challenge #1_TinderTests";
+			productName = "CodePath_Week 5_Challenge #1_TinderTests";
+			productReference = EDB365DB1B3268F0004A09C3 /* CodePath_Week 5_Challenge #1_TinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDB365BE1B3268F0004A09C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Charles Hieger";
+				TargetAttributes = {
+					EDB365C51B3268F0004A09C3 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					EDB365DA1B3268F0004A09C3 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = EDB365C51B3268F0004A09C3;
+					};
+				};
+			};
+			buildConfigurationList = EDB365C11B3268F0004A09C3 /* Build configuration list for PBXProject "CodePath_Week 5_Challenge #1_Tinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDB365BD1B3268F0004A09C3;
+			productRefGroup = EDB365C71B3268F0004A09C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDB365C51B3268F0004A09C3 /* CodePath_Week 5_Challenge #1_Tinder */,
+				EDB365DA1B3268F0004A09C3 /* CodePath_Week 5_Challenge #1_TinderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDB365C41B3268F0004A09C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB365D11B3268F0004A09C3 /* Main.storyboard in Resources */,
+				EDB365D61B3268F0004A09C3 /* LaunchScreen.xib in Resources */,
+				EDB365D31B3268F0004A09C3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB365D91B3268F0004A09C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDB365C21B3268F0004A09C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB365CE1B3268F0004A09C3 /* ViewController.swift in Sources */,
+				EDB365CC1B3268F0004A09C3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB365D71B3268F0004A09C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB365E21B3268F0004A09C3 /* CodePath_Week_5_Challenge__1_TinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDB365DD1B3268F0004A09C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDB365C51B3268F0004A09C3 /* CodePath_Week 5_Challenge #1_Tinder */;
+			targetProxy = EDB365DC1B3268F0004A09C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDB365CF1B3268F0004A09C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDB365D01B3268F0004A09C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDB365D41B3268F0004A09C3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDB365D51B3268F0004A09C3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDB365E31B3268F0004A09C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDB365E41B3268F0004A09C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDB365E61B3268F0004A09C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CodePath_Week 5_Challenge #1_Tinder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDB365E71B3268F0004A09C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CodePath_Week 5_Challenge #1_Tinder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EDB365E91B3268F0004A09C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CodePath_Week 5_Challenge #1_TinderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodePath_Week 5_Challenge #1_Tinder.app/CodePath_Week 5_Challenge #1_Tinder";
+			};
+			name = Debug;
+		};
+		EDB365EA1B3268F0004A09C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CodePath_Week 5_Challenge #1_TinderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodePath_Week 5_Challenge #1_Tinder.app/CodePath_Week 5_Challenge #1_Tinder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDB365C11B3268F0004A09C3 /* Build configuration list for PBXProject "CodePath_Week 5_Challenge #1_Tinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB365E31B3268F0004A09C3 /* Debug */,
+				EDB365E41B3268F0004A09C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDB365E51B3268F0004A09C3 /* Build configuration list for PBXNativeTarget "CodePath_Week 5_Challenge #1_Tinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB365E61B3268F0004A09C3 /* Debug */,
+				EDB365E71B3268F0004A09C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDB365E81B3268F0004A09C3 /* Build configuration list for PBXNativeTarget "CodePath_Week 5_Challenge #1_TinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB365E91B3268F0004A09C3 /* Debug */,
+				EDB365EA1B3268F0004A09C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDB365BE1B3268F0004A09C3 /* Project object */;
+}
